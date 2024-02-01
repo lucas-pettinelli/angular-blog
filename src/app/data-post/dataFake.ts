@@ -3,43 +3,48 @@ export const dataFake = [
         "id": "1",
         "photoCover": "https://i.ytimg.com/vi/mVjYG9TSN88/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gEyhWMA8=&rs=AOn4CLAd8M7O1rK30HRH-9RXrVAjhjqCOA",
         "title": "Nova versão e recursos do Angular v17",
-        "description": "Lorem ipsum 1",
+        "description": "A comunidade Angular recebeu com entusiasmo a tão aguardada versão 17, que transformou significativamente o framework, ampliando o foco em desempenho e na experiência da pessoa desenvolvedora, o que levou essa atualização a ser conhecida como 'Angular Renaissance', ou seja, Renascimento Angular.Além disso, também foi lançada uma nova documentação, o angular.dev. Este novo site apresenta uma estrutura renovada, guias atualizados e conteúdo aprimorado, cheio de tutoriais incorporados implementados com WebContainers e até mesmo um Playground.",
     },
     {
         "id": "2",
         "photoCover": "https://coditramuntana.com/system/image_projects/images/000/000/265/big/angular_coditramuntana.png?1553766572",
-        "title": "As diferentes versões do Angular",
-        "description": "Lorem ipsum 2"
+        "title": "O que é uma versão LTS Angular?",
+        "description": "Sigla para Long-term support  (ou suporte de longo prazo, em português), LTS é uma variação de um software cujo principal objetivo é proporcionar estabilidade por longos períodos. É um conceito presente em alguns programas que normalmente atuam nos “bastidores” do mundo digital — sistemas operacionais ou ferramentas de criação, por exemplo — e que demandam maior confidencialidade, integridade e disponibilidade no cotidiano."
     },
     {
         "id": "3",
         "photoCover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTuvoqzbdPrIxU2RJB-ynUCmW5pa_X2izbVpGit40dy04pp_41QXzzo3nlaO4FVOin_SQ&usqp=CAU",
         "title": "Descubra quais são as diferenças do AngularJS e Angular 2+",
-        "description": ""
+        "description": "O Angular 2+ utiliza Typescript, enquanto que o AngularJS, usa JavaScript. O Angular agora é feito de componentes. Assim, não tem mais necessidade de criar um controller e trabalhar com $scope. AngularJS não foi construído considerando o suporte mobile, enquanto o Angular 2+ é totalmente orientado ao mobile. "
     },
     {
         "id": "4",
         "photoCover": "https://img-b.udemycdn.com/course/240x135/4412496_bdce.jpg",
         "title": "Porquê precisamos saber Typescript para começar no Framework Angular?",
-        "description": ""
+        "description": "O TypeScript desempenha um papel crucial no desenvolvimento Angular. Ele adiciona recursos de tipagem estática ao JavaScript, tornando o código mais seguro e legível. Além disso, o Angular CLI gera automaticamente projetos em TypeScript, simplificando a configuração inicial. TypeScript é totalmente compatível com o Angular; sua integração fluida, suporte da comunidade e recursos modernos o tornam uma opção poderosa para criar aplicativos web escaláveis e estruturados."
     },
     {
         "id": "5",
         "photoCover": "https://www.simplilearn.com/ice9/free_resources_article_thumb/recact_angular_vue.jpg",
-        "title": "Qual é o melhor framework para criar sites web Angular, React ou VueJS?",
-        "description": ""
+        "title": "O que é um framework e para que serve?",
+        "description": "O objetivo principal de um framework é poupar tempo e esforço aos desenvolvedores. Os frameworks permitem aproveitar soluções existentes eliminando a necessidade de escrever códigos desde o zero para funções comuns e repetitivas. Isso agiliza muito o desenvolvimento, ajuda a minimizar erros e a criar um código mais limpo. Além do mais, os frameworks são reutilizáveis e podem ser aplicados em múltiplos projetos."
     },
     {
         "id": "6",
         "photoCover": "https://remsoft.com.br/wp-content/uploads/2020/06/Imagem-principal.png",
-        "title": "Angular CLI uma visão geral do framework e seus comandos",
-        "description": ""
+        "title": "Uma visão sobre o que é o Angular CLI",
+        "description": "O Angular CLI é um Kit de ferramentas completo para ajudar você no desenvolvimento de aplicações Angular. Pois automatiza varias tarefas recorrentes do seu dia a dia, assim a experiência de desenvolver em Angular fica prazerosa e fácil de começar."
     },
     {
         "id": "7",
-        "photoCover": "https://miro.medium.com/v2/resize:fit:1140/1*bSTw6Mal04Nro8qyiOSPMQ.png",
-        "title": "Integrando Google Maps em uma aplicação Angular",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "photoCover": "data:image/jpeg;base64,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",
+        "title": "Aprenda agora mesmo Angular gratuitamente na web",
+        "description": "Podemos aprender com vários canais, cursos frees, bootcamps gratuítos e documentação official do site do Angular, canais no youtube como Dio (Digital Inovation One), Matheus Battisti, Loiane Groner, Fábrica de Código, Dev Media, Alura, Cod3r Cursos e etc...",
+    },
+    {
+        "id": "8",
+        "photoCover": "https://buddy.works/tutorials/assets/posts/building-web-components-with-angular/share-building-web-components-with-angular-dev.png",
+        "title": "O que é um Component no Angular",
+        "description": "No Angular, um componente é uma unidade autônoma e reutilizável de uma aplicação que encapsula o HTML, o CSS e a lógica relacionada. Cada componente representa uma parte específica da interface do usuário e interage com outros componentes para construir a aplicação como um todo.",
     }
-
 ]
