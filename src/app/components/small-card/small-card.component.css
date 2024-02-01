@@ -12,6 +12,7 @@
     width: 200px;
     min-width: 200px;
     margin-right: 1.5rem;
+    border-radius: 2px;
 }
 
 .small-card-title {

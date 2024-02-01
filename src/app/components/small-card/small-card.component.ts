@@ -5,14 +5,15 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
-export class SmallCardComponent implements OnInit{
+export class SmallCardComponent implements OnInit {
 
   @Input()
   imageCover: string = ""
   @Input()
   cardTitle: string = ""
-
-  constructor(){}
+  @Input()
+  Id: string = "0"
+  constructor() { }
   ngOnInit(): void { }
 
 }
